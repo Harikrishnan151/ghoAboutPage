@@ -1,6 +1,6 @@
 import React from 'react'
 import { TiTick } from "react-icons/ti";
-import patientReview from './assets/PatientReview.png'
+import patient from './assets/patientReview.png'
 import Image from 'next/image';
 function AboutUs() {
   return (
@@ -8,8 +8,7 @@ function AboutUs() {
       <div className='px-4 py-8'>
         <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-3 lg:py-8 lg:px-6 ">
           <div className="col-span-1 flex justify-center">
-            {/* <img width={340} height={200} src={patientReview} alt="About Us" /> */}
-            <Image width={340} height={200} src={patientReview} />
+            <Image width={340} height={200} src={patient} />
           </div>
           <div className="col-span-1 p-2 ">
             <h3 className="text-2xl text-blue-700 font-semibold">ABOUT US</h3>
